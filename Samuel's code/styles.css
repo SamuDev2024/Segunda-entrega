@@ -1,0 +1,38 @@
+html {
+    font-family: 'Robotomono', sans-serif;
+}
+
+.entregas {
+    float: left;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.card-container {
+    display: flex;
+}
+
+.entregas-2 {
+    float: right;
+    right: 450px;
+    margin: 0 auto;
+    border-radius: 5px;
+    position: relative;
+}
+
+.dominos {
+    border-radius: 5px;
+}
+
+.dominos-2 {
+    border-radius: 5px;
+}
+
+article {
+    transition: box-shadow 0.3 ease;
+    cursor: pointer;
+}
+
+article:hover {
+    box-shadow: 0 0.1rem 0.4rem black;
+}
